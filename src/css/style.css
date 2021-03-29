@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+app-bar {
+    margin-top: -35px;
+}
+
+movie-list {
+    display: block;
+    margin-top: 35px;
+    width: 100%;
+    padding: 16px;
+}
+
+@media screen and (max-width: 550px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    movie-list {
+        padding: 30px;
+    }
+}
